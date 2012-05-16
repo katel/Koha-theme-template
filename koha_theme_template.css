@@ -1,0 +1,178 @@
+/* 
+ 
+ Designed by: [your name here]
+ 
+ 
+|/  |¯| | | /¯\   ¯|¯ |¯ |\/| |¯| |  /¯\ ¯|¯ |¯ 
+|¯\ |_| |¯| |¯|    |  |¯ |  | |¯  |_ |¯|  |  |¯ 
+                       ¯                      ¯
+ 
+ 
+ 
+ 
+/// Colour scheme reference   //
+ 
+Default koha opac colour scheme::
+
+main search background-color is #739ACF;
+links are #006699 and #990033 on hover
+body background is #ffffff
+font color is black
+form field have a border of #eeeeee
+action buttons are #F3F3F3;
+#cartmenulink button is #98cb58 
+#listmenulink button is #9fbfff
+#moresearches a:link color is #E5EBFF;
+#advsearch-itemtype table cells have a background-color of #F8F8EB;
+ 
+ 
+ 
+*/
+/*generic styles 
+*/
+body {
+	background-color: ;
+	color: ;
+	font-family: ;
+	font-size: 14px;
+	margin: 0; }
+ 
+/*typography additions can go here
+*/
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+	margin: .5em 0; }
+ 
+h2 { font-size: 131%; }
+ 
+h5.author {  }
+ 
+h3 { font-size: 123.1%; }
+ 
+h4 { font-size: 116%; }
+ 
+h5 { font-size: 108%; }
+ 
+h6 { font-size: 100%; }
+ 
+
+ 
+/* Header  --------------------------------------
+================================================> 
+*/
+#header-wrapper {  }
+ 
+h1#library {  }
+ 
+h1#libraryname {
+	background: transparent url(your_logo.png) no-repeat scroll 0%;
+	border: 0;
+	float: left !important;
+	margin: 0;
+	padding: 0;
+	width:  }
+ 
+	h1#libraryname a {
+		border: 0;
+		cursor: pointer;
+		display: block;
+		height: 0px !important;
+		margin: 0;
+		overflow: hidden;
+		padding: 40px 0 0;
+		text-decoration: none;
+		width: }
+ 
+		h1#libraryname a:hover {  }
+ 
+/* The members section is in the top-right corner by default and lists the login link(s)     */
+#members {
+	background-color: #fff;
+	font-size: 85%;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding: 4px 0 4px 0;
+	color: #000066; }
+ 
+	#members a {  }
+ 
+/*main search bar styles */
+#opac-main-search {
+	background-image: url( ../../images/menu-background.gif);
+	background-repeat: repeat-x;
+	background-color: ;
+	background-position: -10px top;
+	border-top: 1px solid #555
+	border-bottom: 1px solid #335599;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding: .7em 0 .4em .5em;
+	font-size: 108%;
+	line-height: 116%; }
+ 
+	#opac-main-search form {
+		display: inline;
+		padding-right: 1em; }
+ 
+	#opac-main-search label {
+		color: #FFFFCC;
+		font-weight: bold;
+		margin: .2em .3em 0 0; }
+ 
+	#opac-main-search #listsmenu ul { border-color: #b8d0e6; }
+ 
+/* selection dropdown on the left of the main search */
+#masthead_search {  }
+ 
+/* selection dropdown on the right of the main search (optional) */
+#select_library {  }
+ 
+#moresearches {  }
+ 
+	#moresearches > a {  }
+ 
+/****************************
+ 
+/*main content area
+*****************************/
+#breadcrumbs {  }
+ 
+.yui-main {  }
+ 
+#doc3 .yuit1 {  }
+ 
+#bd {  }
+ 
+#opac-main {  }
+ 
+/* left column is given a width of 12.3207em, set by .yui-b  */
+#opacnav {  }
+ 
+	#opacnav ul { list-style-type: none; }
+ 
+div.yui-b, div.yui-u { width: 45%; }
+ 
+/* right column is given a width of 24%; set by .yui-u 
+    */
+#login {  }
+ 
+#auth {  }
+ 
+#action {  }
+ 
+ 
+/* the footer */
+#footer {
+	margin-top: 30px;
+	margin-left: 30%;
+	margin-right: 20%;
+	border-top: 1px solid #384b73;
+	color: #384b73;
+	font-size: 1em;
+	text-align: center; }
+ 
+ 
+	/* form styles */
+	form label { color: #555; }
+
+	form legend { color: #555; }
